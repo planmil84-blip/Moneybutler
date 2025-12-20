@@ -1,0 +1,178 @@
+/* MoneyButler 랜딩페이지 스타일 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1.6;
+    color: #1A2332;
+    background: #FFFFFF;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* 히어로 섹션 */
+.hero {
+    background: #1A2332;
+    color: #FFFFFF;
+    padding: 120px 0 100px;
+    text-align: center;
+}
+
+.urgency-banner {
+    background: #D4AF37;
+    color: #1A2332;
+    padding: 12px 24px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+
+.highlight-gold {
+    color: #D4AF37;
+}
+
+.hero-subtitle {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.price-highlight {
+    color: #D4AF37;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.cta-button {
+    background: #D4AF37;
+    color: #1A2332;
+    border: none;
+    padding: 18px 48px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(212, 175, 55, 0.4);
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #F4E5C3;
+    transform: translateY(-2px);
+}
+
+.hero-subtext {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.gold-text {
+    color: #D4AF37;
+    font-weight: 600;
+}
+
+.hero-subtext small {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* 사전 신청 섹션 */
+.signup-section {
+    padding: 100px 0;
+    background: #F8F9FA;
+    text-align: center;
+}
+
+.signup-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #1A2332;
+}
+
+.signup-form {
+    max-width: 500px;
+    margin: 0 auto 2rem;
+    background: #FFFFFF;
+    padding: 3rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.signup-form input:focus {
+    outline: none;
+    border-color: #D4AF37;
+}
+
+.signup-form button {
+    width: 100%;
+    background: #D4AF37;
+    color: #1A2332;
+    border: none;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.signup-form button:hover {
+    background: #F4E5C3;
+    transform: translateY(-2px);
+}
+
+.form-note {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: #6B7280;
+}
+
+/* 반응형 */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .signup-section h2 {
+        font-size: 2rem;
+    }
+    
+    .signup-form {
+        padding: 2rem;
+    }
+}
